@@ -23,6 +23,7 @@ jobs:
             curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
             dep ensure
           fi
+        go get -u go.undefinedlabs.com/scopeagent@codepath
     - name: Scope for Go
       uses: undefinedlabs/scope-for-go-action@codepath
       with:
