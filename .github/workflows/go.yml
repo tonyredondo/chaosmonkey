@@ -25,6 +25,6 @@ jobs:
           fi
         go get -u go.undefinedlabs.com/scopeagent
     - name: Scope for Go
-      uses: undefinedlabs/scope-for-go-action@v2
+      uses: undefinedlabs/scope-for-go-action@v1.1.0
       with:
         dsn: ${{secrets.SCOPE_DSN}}
