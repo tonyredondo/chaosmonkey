@@ -16,6 +16,9 @@ jobs:
     - name: Check out code into the Go module directory
       uses: actions/checkout@v2
 
+    - name: Dependencies
+      run: go get 
+
     - name: Scope for Go
       uses: undefinedlabs/scope-for-go-action@1.1.0
       with:
